@@ -1,0 +1,65 @@
+body {
+  background-color: #8d61ef;
+}
+
+main {
+  display: table;
+  margin: 100px auto 0 auto;
+}
+
+.card {
+  width: 350px;
+  height: 380px;
+  display: block;
+  background-color: #f2f4f5;
+  border-radius: 10px;
+  box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+}
+
+.card .card-image {
+  width: 120px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
+
+.card .card-body {
+  width: 100;
+  display: table;
+  margin-top: 13px;
+}
+
+.card .card-body .name,
+.card-info {
+  font-family: Arial Black, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+  margin: 0;
+}
+
+.card .card-body .age {
+  font-family: Arial Black, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+  margin: 0;
+}
+
+.card .card-body .city {
+  font-family: Arial Black, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+  margin: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
