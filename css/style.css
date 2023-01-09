@@ -1,5 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
 body {
-  background-color: #835bda;
+  background-color: #27093c;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='285' height='285' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%234D0751' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23521C55'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+  font-family: "Kumbh Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  min-height: 80vh;
 }
 
 main {
@@ -22,8 +29,8 @@ main {
   height: 40%;
   display: flex;
   position: relative;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
 .card .card-perfilImage {
@@ -44,7 +51,6 @@ main {
   position: relative;
   text-align: center;
   font-weight: 400;
-  font-family: Arial Black, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 21px;
 }
@@ -56,26 +62,37 @@ main {
   bottom: 40px;
 }
 
-.card .card-body .name,
-.card-info {
+.card .card-body .name {
   color: black;
   margin: auto;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
-.card .card-body .age {
-  color: black;
-  margin: 0;
+.card-body .name span {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+
+.card .card-body .name,
+.card-info {
+  color: hsl(229, 23%, 23%);
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 21px;
 }
 
 .card .card-body .city {
-  color: black;
-  margin: 0;
+  color: hsl(227, 10%, 46%);
+  font-size: 13px;
+  border-bottom: 1px solid hsla(227, 10%, 46%, 0.2);
+  padding-top: 5px;
+  padding-bottom: 15px;
 }
 
-.attribution {
-  font-size: 11px;
+.card .card-body .card-info {
+  display: inline-block;
+  padding: 20px;
   text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+  margin-bottom: 5px;
 }
